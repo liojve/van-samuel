@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #f0f0f0;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	flex-grow: 1;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header {
+	background-color: #9583b6;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	text-align: center;
+}
+.invite-image {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+}
+footer {
+	background-color: #9583b6;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.cta-button {
+	display: inline-block;
+	background-color: #9583b6;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition:
+background-color 0.2s;
+text-align: center;
+margin: 20px auto;
+display: block;
+}
+.cta-button:hover {
+background-color: #755eb1;
+}
